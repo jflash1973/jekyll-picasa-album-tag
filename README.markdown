@@ -8,13 +8,11 @@ Copy that link and paste it into your page like this:
 Configuration is done via the ``_config.yml`` file.  
 
 ### Example:
-``
-picasa_album:
-  thumbnail_size: 0
-  gallery_tag: div
-  gallery_class: gallery
-  a_class: fancybox
-``
+	picasa_album:
+		thumbnail_size: 0
+		gallery_tag: div
+		gallery_class: gallery
+		a_class: fancybox
 
 ### Known options:
  - thumbnail_size, default=1, values=0-2
