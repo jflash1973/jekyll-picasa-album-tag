@@ -33,7 +33,7 @@ module Jekyll
         html += "<img rel=\"#{@config['img_rel']}\" class=\"#{@config['img_class']}\" src=\"#{photo.thumbnail}\"/>"
         html += "</a>\n"
       end
-      html += "</#{@gallery_tag}>"
+      html += "</#{@config['gallery_tag']}>"
       "#{html}"
     end
 
